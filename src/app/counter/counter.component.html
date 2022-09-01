@@ -1,0 +1,33 @@
+<p>counter works!</p>
+<pre>
+  tickRun: boolean;
+  tickSpeed: number;
+  count: number;
+  countBy: number;
+  countUp: boolean
+</pre>
+<router-outlet></router-outlet>
+
+<hr />
+<div>
+  <label for="tickRun">Run Tick:</label>
+  <input type="checkbox" name="tickRun" value="" id="tickRun" checked />
+</div>
+<hr />
+<div>
+  <label for="tickSpeed">Tick Speed:</label>
+  <input type="number" name="tickSpeed" value="1000" id="tickSpeed" />
+</div>
+<hr />
+<div>
+  <label for="countUp">Count Up:</label>
+  <input type="checkbox" name="countUp" value="" id="countUp" checked />
+</div>
+<hr />
+<div>
+  <label for="countBy">Count By:</label>
+  <input type="number" name="countBy" id="countBy" value="1" />
+</div>
+<hr />
+<h2>Current Count: 0</h2>
+<hr />
